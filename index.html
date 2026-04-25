@@ -3,94 +3,258 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Professional Website</title>
+    <title>Davide Genini | EU Law & Security</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
 <header>
     <nav class="navbar">
-        <div class="logo">Your Name</div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#research">Research</a></li>
-            <li><a href="#publications">Publications</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <div class="logo">
+            <h2>DG</h2>
+            <div class="logo-text">
+                <strong>DAVIDE GENINI</strong>
+                <span>EU LAW & SECURITY</span>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#research">RESEARCH</a></li>
+            <li><a href="#publications">PUBLICATIONS</a></li>
+            <li><a href="#experience">EXPERIENCE</a></li>
+            <li><a href="#teaching">TEACHING</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
 </header>
 
 <section class="hero">
-    <div class="hero-text">
-        <h1>Your Name</h1>
-        <h2>PhD Candidate in [Your Field]</h2>
-        <p>Short professional description about your expertise and research focus.</p>
-        <div class="buttons">
-            <a href="#research" class="btn primary">View Research</a>
-            <a href="#publications" class="btn secondary">Publications</a>
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Davide Genini</h1>
+            <h2 class="highlight-gold">PhD Candidate in EU Law & Government</h2>
+            <h3>European Union Law, Security & Defence,<br>EU–NATO Relations</h3>
+            <p>Researching the legal foundations of European<br>security in a changing geopolitical order.</p>
+            <div class="buttons">
+                <a href="#research" class="btn primary">VIEW RESEARCH</a>
+                <a href="#publications" class="btn secondary">PUBLICATIONS</a>
+            </div>
         </div>
-    </div>
-
-    <div class="hero-image">
-        <img src="assets/profile.jpg" alt="Profile Photo">
+        <div class="hero-image">
+            <img src="assets/profile.jpg" alt="Davide Genini">
+        </div>
     </div>
 </section>
 
 <section class="info-bar">
-    <div>🎓 PhD Candidate – Your University</div>
-    <div>📚 Research Fellow – Institution</div>
-    <div>⚖️ Fellow – Organization</div>
-</section>
-
-<section id="research" class="research">
-    <h2>Research Areas</h2>
-    <div class="cards">
-
-        <div class="card">
-            <h3>Area 1</h3>
-            <p>Short description.</p>
+    <div class="info-item">
+        <div class="icon-circle"><i class="fa-solid fa-building-columns"></i></div>
+        <div class="info-text">
+            <strong>PhD Candidate</strong>
+            <span>Dublin City University</span>
+            <small>EU Law & Government</small>
         </div>
-
-        <div class="card">
-            <h3>Area 2</h3>
-            <p>Short description.</p>
+    </div>
+    <div class="info-item">
+        <div class="icon-circle"><i class="fa-solid fa-book-open-reader"></i></div>
+        <div class="info-text">
+            <strong>Research Fellow</strong>
+            <span>Princeton University</span>
+            <small>European Security</small>
         </div>
-
-        <div class="card">
-            <h3>Area 3</h3>
-            <p>Short description.</p>
+    </div>
+    <div class="info-item">
+        <div class="icon-circle"><i class="fa-solid fa-scale-balanced"></i></div>
+        <div class="info-text">
+            <strong>Fellow</strong>
+            <span>Luxembourg Centre</span>
+            <small>of European Law</small>
         </div>
-
-        <div class="card">
-            <h3>Area 4</h3>
-            <p>Short description.</p>
-        </div>
-
     </div>
 </section>
 
-<section id="publications" class="publications">
-    <h2>Selected Publications</h2>
+<section id="research" class="research">
+    <h2 class="section-title">RESEARCH AREAS</h2>
+    <div class="cards">
+        <div class="card">
+            <div class="card-icon"><i class="fa-solid fa-certificate"></i></div>
+            <h3>European Security Architecture</h3>
+            <p>How geopolitical conflicts reshape the roles and actions of the EU and NATO.</p>
+        </div>
+        <div class="card">
+            <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3>EU Foreign & Security Policy</h3>
+            <p>Legal framework and institutional evolution of CFSP and CSDP.</p>
+        </div>
+        <div class="card">
+            <div class="card-icon"><i class="fa-solid fa-compass"></i></div>
+            <h3>EU–NATO Relations</h3>
+            <p>Legal relationship, cooperation and strategic complementarity.</p>
+        </div>
+        <div class="card">
+            <div class="card-icon"><i class="fa-solid fa-industry"></i></div>
+            <h3>Defence Industrial Law</h3>
+            <p>EU industrial policy and the defence sector in times of geopolitical tension.</p>
+        </div>
+        <div class="card">
+            <div class="card-icon"><i class="fa-solid fa-globe"></i></div>
+            <h3>EU as a Global Actor</h3>
+            <p>The EU's role in the evolving international legal and political order.</p>
+        </div>
+    </div>
+</section>
 
-    <ul>
-        <li><strong>Paper Title</strong> – Journal Name (Year)</li>
-        <li><strong>Paper Title</strong> – Journal Name (Year)</li>
-        <li><strong>Paper Title</strong> – Journal Name (Year)</li>
-    </ul>
+<section class="split-section">
+    <div id="publications" class="publications">
+        <div class="section-header">
+            <h2 class="section-title">SELECTED PUBLICATIONS</h2>
+            <a href="#" class="view-all">VIEW ALL PUBLICATIONS &rarr;</a>
+        </div>
+        <ul class="pub-list">
+            <li>
+                <i class="fa-solid fa-book-open text-blue"></i>
+                <div class="pub-details">
+                    <strong>The European Union under Geopolitical Pressure: Towards a European Defence Union (2026)</strong>
+                    <em>Irish Journal of European Law</em>
+                </div>
+                <i class="fa-solid fa-chevron-right arrow"></i>
+            </li>
+            <li>
+                <i class="fa-solid fa-book-open text-blue"></i>
+                <div class="pub-details">
+                    <strong>Restructuring the EU's Defence Industrial Base amid Geopolitical Tensions (2025)</strong>
+                    <em>Maastricht Journal of European and Comparative Law</em>
+                </div>
+                <i class="fa-solid fa-chevron-right arrow"></i>
+            </li>
+            <li>
+                <i class="fa-solid fa-book-open text-blue"></i>
+                <div class="pub-details">
+                    <strong>Effects of the War in Ukraine on the Development of the EU Common Foreign and Security Policy (2025)</strong>
+                    <em>European Foreign Affairs Review</em>
+                </div>
+                <i class="fa-solid fa-chevron-right arrow"></i>
+            </li>
+            <li>
+                <i class="fa-solid fa-book-open text-blue"></i>
+                <div class="pub-details">
+                    <strong>Countering Hybrid Threats: How NATO must Adapt (Again) after the War in Ukraine (2025)</strong>
+                    <em>New Perspectives: Interdisciplinary Journal</em>
+                </div>
+                <i class="fa-solid fa-chevron-right arrow"></i>
+            </li>
+        </ul>
+        <a href="#" class="btn primary-dark">BROWSE ALL PUBLICATIONS</a>
+    </div>
+
+    <div id="appointments" class="appointments">
+        <h2 class="section-title">UPCOMING APPOINTMENTS</h2>
+        <ul class="app-list">
+            <li>
+                <div class="app-icon"><i class="fa-regular fa-calendar"></i></div>
+                <div class="app-details">
+                    <span class="date">APR 2026 – MAY 2026</span>
+                    <strong>Research Fellow in European Security</strong>
+                    <span>Princeton Institute of International Public Affairs,<br>Princeton University, USA</span>
+                </div>
+            </li>
+            <li>
+                <div class="app-icon"><i class="fa-regular fa-calendar"></i></div>
+                <div class="app-details">
+                    <span class="date">JAN 2026 – FEB 2026</span>
+                    <strong>Scholarly Research Fellowship</strong>
+                    <span>Luxembourg Centre of European Law, Luxembourg</span>
+                </div>
+            </li>
+            <li>
+                <div class="app-icon"><i class="fa-regular fa-calendar"></i></div>
+                <div class="app-details">
+                    <span class="date">SEP 2023 – PRESENT</span>
+                    <strong>PhD in EU Law & Government</strong>
+                    <span>Dublin City University, Ireland</span>
+                </div>
+            </li>
+        </ul>
+        <a href="#" class="btn primary-dark">VIEW FULL CV</a>
+    </div>
 </section>
 
 <section class="stats">
-    <div>20+ Publications</div>
-    <div>40+ Talks</div>
-    <div>10+ Projects</div>
-    <div>5+ Teaching</div>
+    <div class="stat-item">
+        <i class="fa-solid fa-file-lines"></i>
+        <div class="stat-text">
+            <strong>20+</strong>
+            <span>Peer-Reviewed Publications</span>
+        </div>
+    </div>
+    <div class="stat-item">
+        <i class="fa-solid fa-microphone"></i>
+        <div class="stat-text">
+            <strong>40+</strong>
+            <span>Conferences & Invited Talks</span>
+        </div>
+    </div>
+    <div class="stat-item">
+        <i class="fa-solid fa-users"></i>
+        <div class="stat-text">
+            <strong>10+</strong>
+            <span>Projects & Research Networks</span>
+        </div>
+    </div>
+    <div class="stat-item">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <div class="stat-text">
+            <strong>5+</strong>
+            <span>Teaching & Guest Lectures</span>
+        </div>
+    </div>
 </section>
 
 <footer id="contact">
-    <h2>Contact</h2>
-    <p>Email: your@email.com</p>
-    <p>Location: Your City</p>
-    <p>LinkedIn: yourprofile</p>
+    <div class="footer-container">
+        <div class="footer-col">
+            <h4>ABOUT ME</h4>
+            <p>I am a legal scholar with a strong passion for European security, EU law and international relations. My work focuses on how law can contribute to peace, stability and effective multilateral cooperation.</p>
+            <a href="#about" class="text-gold">READ MORE &rarr;</a>
+        </div>
+        <div class="footer-col">
+            <h4>QUICK LINKS</h4>
+            <ul>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#projects">Projects & Networks</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>GET IN TOUCH</h4>
+            <ul class="contact-info">
+                <li><i class="fa-solid fa-envelope"></i> davidegen1998@gmail.com</li>
+                <li><i class="fa-solid fa-phone"></i> +39 3454511253</li>
+                <li><i class="fa-solid fa-location-dot"></i> Dublin, Ireland</li>
+                <li><i class="fa-brands fa-linkedin"></i> LinkedIn</li>
+                <li><i class="fa-solid fa-graduation-cap"></i> Google Scholar</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>STAY UPDATED</h4>
+            <p>Subscribe to receive updates on my research, publications and events.</p>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Your email address">
+                <button type="submit" class="btn primary full-width">SUBSCRIBE</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Davide Genini. All rights reserved.</p>
+        <p>Website by Davide Genini</p>
+    </div>
 </footer>
 
 <script src="script.js"></script>
