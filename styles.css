@@ -567,3 +567,13 @@ footer {
     color: white;
     border-color: var(--mid-blue);
 }
+
+.pub-details a:hover strong {
+    color: var(--mid-blue);
+    text-decoration: underline;
+}
+
+.forthcoming {
+    font-style: italic;
+    opacity: 0.8;
+}
