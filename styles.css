@@ -79,6 +79,10 @@ header {
 
 .logo-text strong { letter-spacing: 2px; }
 
+.logo-text {
+    white-space: nowrap;
+}
+
 .nav-links {
     list-style: none;
     display: flex;
