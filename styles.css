@@ -577,3 +577,10 @@ footer {
     font-style: italic;
     opacity: 0.8;
 }
+
+.section-title-large {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--primary-blue);
+}
