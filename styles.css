@@ -544,3 +544,26 @@ footer {
     font-size: 0.8rem;
     color: #aebce0;
 }
+
+.pub-filters {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0 30px;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 6px 14px;
+    border: 1px solid var(--border-color);
+    background: white;
+    font-size: 0.75rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.filter-btn.active {
+    background: var(--mid-blue);
+    color: white;
+    border-color: var(--mid-blue);
+}
