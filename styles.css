@@ -54,7 +54,7 @@ header {
     align-items: center;
     gap: 15px;
     text-decoration: none;
-    color: inherit;
+    color: white; /* force navbar color */
 }
 
 .logo:hover {
