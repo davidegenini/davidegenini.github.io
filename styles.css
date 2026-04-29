@@ -586,3 +586,7 @@ footer {
     color: var(--primary-blue);
     line-height: 1.2;
 }
+
+.nav-links a {
+    white-space: nowrap;
+}
