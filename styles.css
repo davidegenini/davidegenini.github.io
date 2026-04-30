@@ -163,13 +163,6 @@ header {
     width: 100%;
     max-width: 650px; /* increase size */
     height: auto;
-}
-
-.hero-image img {
-    display: block;
-    border-radius: 0; /* ensure no rounding */
-
-    /* soft fade on BOTH sides */
     -webkit-mask-image: linear-gradient(to left, black 85%, transparent 100%);
     mask-image: linear-gradient(to left, black 85%, transparent 100%);
 
