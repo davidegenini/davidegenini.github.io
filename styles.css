@@ -153,12 +153,6 @@ header {
     opacity: 0.9;
 }
 
-.hero-image {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-}
-
 .buttons {
     display: flex;
     gap: 20px;
