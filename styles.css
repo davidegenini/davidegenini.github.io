@@ -159,13 +159,6 @@ header {
     justify-content: flex-end;
 }
 
-.hero-image img {
-    width: 100%;
-    max-width: 650px; /* increase size */
-    height: auto;
-    -webkit-mask-image: linear-gradient(to left, black 85%, transparent 100%);
-    mask-image: linear-gradient(to left, black 85%, transparent 100%);
-
 .buttons {
     display: flex;
     gap: 20px;
